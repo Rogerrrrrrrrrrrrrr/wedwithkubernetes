@@ -1,0 +1,5 @@
+# Use the official WordPress image as the base image
+FROM wordpress:latest
+
+# Copy the contents of the WordPress directory into the container
+COPY . /var/www/html/
